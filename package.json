@@ -1,0 +1,22 @@
+{
+  "name": "fcc-technical-documentation-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladPatsiuk/FCC-Technical-Documentation-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladPatsiuk/FCC-Technical-Documentation-Page/issues"
+  },
+  "homepage": "https:VladPatsiuk.github.io/FCC-Technical-Documantation-Page",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
