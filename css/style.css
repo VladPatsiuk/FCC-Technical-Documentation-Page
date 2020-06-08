@@ -144,25 +144,7 @@ main {
   padding: 20px;
 }
 
-header:after {
-  display: inline-block;
-  margin: 0 0 8px 20px;
-  height: 3px;
-  content: " ";
-  text-shadow: none;
-  background-color: #999;
-  width: 100px;
-}
 
-header:before {
-  display: inline-block;
-  margin: 0 20px 8px 0;
-  height: 3px;
-  content: " ";
-  text-shadow: none;
-  background-color: #999;
-  width: 100px;
-}
 
 /* Media */
 @media (max-width: 700px) {
@@ -191,8 +173,28 @@ header:before {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   html {
-    font-size: 22px;
+    font-size: 16px;
+  }
+
+  header:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 100px;
+  }
+
+  header:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 100px;
   }
 }
